@@ -1,0 +1,73 @@
+html {
+  color: #1f2933;
+  background: #f7f8fa;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "YuGothic", "Noto Sans JP", sans-serif;
+  line-height: 1.75;
+}
+
+body {
+  box-sizing: border-box;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 48px 24px 72px;
+}
+
+main {
+  background: #ffffff;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 40px;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.35;
+}
+
+h1 {
+  margin: 0 0 24px;
+  font-size: 2rem;
+}
+
+h2 {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid #e6e8eb;
+  font-size: 1.35rem;
+}
+
+h3 {
+  margin-top: 28px;
+  font-size: 1.1rem;
+}
+
+p {
+  margin: 16px 0;
+}
+
+ul {
+  padding-left: 1.4rem;
+}
+
+li {
+  margin: 8px 0;
+}
+
+a {
+  color: #0b63ce;
+}
+
+@media (max-width: 640px) {
+  body {
+    padding: 24px 14px 48px;
+  }
+
+  main {
+    padding: 24px 18px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+}
